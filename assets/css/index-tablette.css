@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 426px)  and (max-width: 768px){
+
+.titre-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space-logo{
+    margin: 3%;
+    color: brown;
+    font-size: 30px;
+}
+
+.img-center{
+    width: 90%;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.onglet{
+    background-color: aliceblue;
+    padding: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.first-content{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+p{
+    padding: 3%;
+}
+
+.second-content{
+    border-top: 1px solid grey;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.top{
+    width: 30%;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.galerie{
+    width: 60%;
+}
+
+h2{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+footer{
+    border-top: 1px solid black;
+    padding: 4%;
+    text-align: center;
+
+}
+
+}
